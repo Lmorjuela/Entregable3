@@ -1,0 +1,91 @@
+:root {
+    --resident-color:#062226;
+    --color-titles: #ecf1f1;
+    --color-paragraph: #9ca3a8;
+    --alive-color:#008000;
+    --dead-color:#FF0000;
+    --no-information-color:#ccc;
+    --hr-color:#084851;
+}
+
+
+.resident{
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+    background-color: var(--resident-color);
+    color:white;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.resident_header{
+    position: relative;
+}
+
+.resident_status{
+    position:absolute;
+    top: 15%;
+    width: 45%;
+    min-width: 100px;
+    background-color: var(--resident-color);
+    padding: 0.2rem 0.8rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.resident_circle{
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color:var(--no-information-color);
+}
+
+.Alive{
+    background-color:var(--alive-color);
+}
+
+.Dead{
+    background-color: var(--dead-color);
+}
+
+.resident_name{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+hr{
+    height: 2px;
+    border-color: var(--hr-color);
+    background-color: var(--hr-color);
+}
+
+
+.resident_list{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.resident_item{
+    display: flex;
+    flex-direction: column;
+    gap:0.2rem;
+}
+
+.resident_item-name{
+    font-size: 1.1rem;
+}
+
+.resident_item-value{
+    color: var(--color-paragraph);
+}

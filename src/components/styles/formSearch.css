@@ -1,0 +1,26 @@
+.form_search{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.input_search{
+    height: 2.5rem;
+    width: 15rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.search_btn{
+    width: 5rem ;
+    font-size: 1rem;
+    color:var(--resident-color);
+    background-color: var(--color_btn);
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
