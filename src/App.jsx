@@ -35,7 +35,7 @@ function App() {
         />
         {
           hasError
-            ? <h2>❌ Hey! you must provide an id from 1 to 126 ❌</h2>
+            ? <h2  className='msg_error'>❌ Hey! you must provide an id from 1 to 126 ❌</h2>
             :
             <>
             <div className='location'>
