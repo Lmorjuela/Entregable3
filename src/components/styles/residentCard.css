@@ -1,6 +1,6 @@
 :root {
     --resident-color:#062226;
-    --color-titles: #ecf1f1;
+    --color-titles:white;
     --color-paragraph: #9ca3a8;
     --alive-color:#008000;
     --dead-color:#FF0000;
@@ -14,7 +14,7 @@
     width: 100%;
     max-width: 350px;
     background-color: var(--resident-color);
-    color:white;
+    color: var(--color-titles);
     border-radius: 0.8rem;
     overflow: hidden;
 }
